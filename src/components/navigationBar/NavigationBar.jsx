@@ -13,13 +13,13 @@ const NavBar = () => {
     <>
       <ul className="navbar">
         <li>
-          <a href="#">Offer</a>
+          <a>Offer</a>
         </li>
         <li>
-          <a href="#">Pricing</a>
+          <a>Pricing</a>
         </li>
         <li className="logo">
-          <a href="#">
+          <a>
             <img
               src={logo}
               alt="logo"
@@ -30,10 +30,10 @@ const NavBar = () => {
           </a>
         </li>
         <li>
-          <a href="#">About Us</a>
+          <a>About Us</a>
         </li>
         <li className="contact">
-          <a href="#">Contact</a>
+          <a>Contact</a>
         </li>
       </ul>
     </>
