@@ -1,4 +1,4 @@
-import CustomHeader from "./components/customHeaderFullScreen/CustomHeaderFullScreen";
+import CustomHeaderFullScreen from "./components/customHeaderFullScreen/CustomHeaderFullScreen";
 import NavBar from "./components/navigationBar/NavigationBar";
 import CustomButton from "./components/customButton/CustomButton";
 import LogoImage from "./components/logoImage/LogoImage";
@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <CustomHeader
+      <CustomHeaderFullScreen
         title="Filing taxes can be simple, secure & affordable"
         text="See our experts with convenient filing options for your income tax preparation"
         buttonCall={

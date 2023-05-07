@@ -1,7 +1,7 @@
 import image from "./laptophand.jpg";
 import "./customHeaderFullScreen.style.css";
 
-const CustomHeader = ({ title, text, buttonCall, buttonSchedule }) => {
+const CustomHeaderFullScreen = ({ title, text, buttonCall, buttonSchedule }) => {
   return (
     <>
       <div className="img-container">
@@ -19,4 +19,4 @@ const CustomHeader = ({ title, text, buttonCall, buttonSchedule }) => {
   );
 };
 
-export default CustomHeader;
+export default CustomHeaderFullScreen;
