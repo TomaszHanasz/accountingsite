@@ -1,9 +1,9 @@
 import "./customButton.style.css";
 
-const CustomButton = (props) => {
+const CustomButton = ({ type, onClick, buttonName }) => {
   return (
-    <button className={`btn ${props.type}`} onClick={props.onClick}>
-      {props.buttonName}
+    <button className={`btn ${type}`} onClick={onClick}>
+      {buttonName}
     </button>
   );
 };
