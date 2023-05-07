@@ -1,7 +1,9 @@
-import "./App.style.css";
 import CustomHeader from "./components/customHeaderFullScreen/CustomHeaderFullScreen";
 import NavBar from "./components/navigationBar/NavigationBar";
 import CustomButton from "./components/customButton/CustomButton";
+import LogoImage from "./components/logoImage/LogoImage";
+import logo from "./thlogowhite.png";
+import "./App.style.css";
 
 const thankYou = () => {
   return alert("Thank You!!");
@@ -29,6 +31,7 @@ function App() {
           />
         }
       />
+      <LogoImage src={logo} className="big-logo" alt="big-logo" />
     </div>
   );
 }
