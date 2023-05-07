@@ -2,7 +2,7 @@ import logo from "./thlogowhite.png";
 import React, { useState } from "react";
 import "./navigationBar.style.css";
 
-const NavBar = () => {
+const NavBar = (props) => {
   const [rotate, setRotate] = useState(false);
 
   const handleClick = () => {
@@ -11,7 +11,7 @@ const NavBar = () => {
 
   return (
     <>
-      <ul className="navbar">
+      <ul className="navbar" style={props.style}>
         <li>
           <a href="#top">Offer</a>
         </li>
