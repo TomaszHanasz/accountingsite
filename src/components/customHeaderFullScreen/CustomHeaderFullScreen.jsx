@@ -5,7 +5,7 @@ const CustomHeader = ({ title, text, buttonCall, buttonSchedule }) => {
   return (
     <>
       <div className="img-container">
-        <img className="header-image" src={image}></img>
+        <img className="header-image" src={image} alt="header image"></img>
       </div>
       <div className="header-left">
         <h1>{title}</h1>
