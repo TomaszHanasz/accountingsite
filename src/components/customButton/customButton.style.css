@@ -1,0 +1,26 @@
+button {
+  background: none;
+  border: none;
+}
+
+.btn {
+  font-size: 1.4rem;
+  width: 359px;
+  height: 66px;
+  background-color: #00243f;
+  color: white;
+  border-radius: 20px;
+  margin-bottom: 3rem;
+  -webkit-box-shadow: 5px 5px 15px 2px #000000;
+  box-shadow: 5px 5px 15px 2px #000000;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-out;
+  background-color: #c58532;
+}
+
+.btn:active {
+  transition: all 0.5s ease-out;
+}
