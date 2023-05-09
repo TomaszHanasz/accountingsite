@@ -18,7 +18,7 @@ function CustomForm() {
       <FormInput label="Phone Number" type="number" />
       <FormInput label="Email" type="email" />
       <FormInput label="Date" type="date" />
-      <FormInput label="I will come" type="checkbox" role="agree" />
+      <FormInput label="I will come 100%" type="checkbox" role="agree" />
       <div className="confirmBtn">
         <CustomButton
           role="confirmSchedule"
