@@ -1,7 +1,5 @@
 import CustomHeaderFullScreen from "./components/customHeaderFullScreen/CustomHeaderFullScreen";
 import NavBar from "./components/navigationBar/NavigationBar";
-import LogoImage from "./components/logoImage/LogoImage";
-import logo from "./thlogowhite.png";
 import headerImage from "./components/customHeaderFullScreen/laptophand.jpg";
 import "./App.style.css";
 
@@ -14,7 +12,6 @@ function App() {
         text="See our experts with convenient filing options for your income tax preparation"
         image={headerImage}
       />
-      <LogoImage src={logo} className="big-logo" alt="big-logo" />
     </div>
   );
 }
