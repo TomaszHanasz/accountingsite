@@ -1,13 +1,15 @@
-import image from "./laptophand.jpg";
 import "./customHeaderFullScreen.style.css";
+import CustomButton from "../customButton/CustomButton";
 
-const CustomHeaderFullScreen = ({
-  title,
-  text,
-  image,
-  buttonCall,
-  buttonSchedule,
-}) => {
+const CustomHeaderFullScreen = ({ title, text, image }) => {
+  const thankYou = () => {
+    return alert("Thank You!!");
+  };
+
+  const scheduled = () => {
+    return alert("See you tomorrow!!");
+  };
+
   return (
     <>
       <div className="img-container">
@@ -17,8 +19,11 @@ const CustomHeaderFullScreen = ({
         <h1>{title}</h1>
         <h2>{text}</h2>
         <div className="header-buttons">
-          <button>{buttonCall}</button>
-          <button>{buttonSchedule}</button>
+          <CustomButton onClick={thankYou} buttonName="Call Us" />
+          <CustomButton
+            onClick={scheduled}
+            buttonName="Schedule an Appointment"
+          />
         </div>
       </div>
     </>
