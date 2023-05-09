@@ -1,0 +1,15 @@
+.sign-up-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  padding-left: 20px;
+}
+
+.schedule-title {
+  align-self: center;
+}
+
+.confirmBtn {
+  align-self: center;
+}
