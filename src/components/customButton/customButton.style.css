@@ -13,14 +13,8 @@ button {
   margin-bottom: 3rem;
   -webkit-box-shadow: 5px 5px 15px 2px #000000;
   box-shadow: 5px 5px 15px 2px #000000;
-  transition: all 0.5s ease-out;
 }
 
 .btn:hover {
-  transition: all 0.5s ease-out;
   background-color: #c58532;
-}
-
-.btn:active {
-  transition: all 0.5s ease-out;
 }
