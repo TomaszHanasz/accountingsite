@@ -8,7 +8,7 @@ const CountComponent = ({ onClick, count, buttonName }) => {
       <CustomButton
         onClick={onClick}
         buttonName={buttonName}
-        role={`add-button`}
+        role={`count-button`}
       />
     </div>
   );
