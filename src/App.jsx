@@ -36,8 +36,8 @@ function App() {
       />
       <h3 className="count-result">{count}</h3>
       <div className="count-block">
-        <CountComponent buttonName={"+ 10"} onClick={onClickHandlerIncrease} />
-        <CountComponent buttonName={"- 10"} onClick={onClickHandlerDecrease} />
+        <CountComponent buttonName={"+10"} onClick={onClickHandlerIncrease} />
+        <CountComponent buttonName={"-10"} onClick={onClickHandlerDecrease} />
         <CountComponent buttonName={"Reset"} onClick={onClickHandlerReset} />
       </div>
     </div>
