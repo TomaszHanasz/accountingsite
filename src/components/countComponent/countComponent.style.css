@@ -1,0 +1,16 @@
+.add-button {
+  width: 200px;
+  background-color: #00243f;
+}
+
+.count-block {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.count-result {
+  display: block;
+  text-align: center;
+}
