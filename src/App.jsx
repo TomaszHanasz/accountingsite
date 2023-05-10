@@ -15,7 +15,7 @@ function App() {
     }
   };
 
-  const onClickHandlerDencrease = () => {
+  const onClickHandlerDecrease = () => {
     setCount(count - 10);
     if (count === 0) {
       setCount(count);
@@ -37,7 +37,7 @@ function App() {
       <h3 className="count-result">{count}</h3>
       <div className="count-block">
         <CountComponent buttonName={"+ 10"} onClick={onClickHandlerIncrease} />
-        <CountComponent buttonName={"- 10"} onClick={onClickHandlerDencrease} />
+        <CountComponent buttonName={"- 10"} onClick={onClickHandlerDecrease} />
         <CountComponent buttonName={"Reset"} onClick={onClickHandlerReset} />
       </div>
     </div>
