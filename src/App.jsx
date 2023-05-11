@@ -17,7 +17,21 @@ function App() {
 
   const onClickHandlerDecrease = () => {
     setCount(count - 10);
-    if (count === 0) {
+    if (count === 0 || count > 150) {
+      setCount(count);
+    }
+  };
+
+  const onClickHandlerMultiply = () => {
+    setCount(count * 5);
+    if (count >= 150) {
+      setCount(count);
+    }
+  };
+
+  const onClickHandlerDivide = () => {
+    setCount(count / 5);
+    if (count < 1) {
       setCount(count);
     }
   };
@@ -39,6 +53,8 @@ function App() {
         <CountComponent buttonName={"+10"} onClick={onClickHandlerIncrease} />
         <CountComponent buttonName={"-10"} onClick={onClickHandlerDecrease} />
         <CountComponent buttonName={"Reset"} onClick={onClickHandlerReset} />
+        <CountComponent buttonName={"/ 5"} onClick={onClickHandlerDivide} />
+        <CountComponent buttonName={"x 5"} onClick={onClickHandlerMultiply} />
       </div>
     </div>
   );
