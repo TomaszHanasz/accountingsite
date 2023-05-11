@@ -30,7 +30,7 @@ function App() {
     <div className="App">
       <NavBar style={{ backgroundColor: `#00243f` }} />
       <CustomHeaderFullScreen
-        title="Filing taxes can be simple, secure & affordable"
+        title="Filingg taxes can be simple, secure & affordable"
         text="See our experts with convenient filing options for your income tax preparation"
         image={headerImage}
       />
