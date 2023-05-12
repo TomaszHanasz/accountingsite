@@ -25,30 +25,35 @@ const AnimalsComponent = () => {
         <img
           className="animal-img"
           src={anteater}
+          alt="animal"
           onClick={() => onClickHandler(ant)}
         />
         <img
           className="animal-img"
           src={probocsis}
+          alt="animal"
           onClick={() => onClickHandler(leaves)}
         />
         <img
           className="animal-img"
           src={cat}
+          alt="animal"
           onClick={() => onClickHandler(mouse)}
         />
         <img
           className="animal-img"
           src={hedgehog}
+          alt="animal"
           onClick={() => onClickHandler(apple)}
         />
         <img
           className="animal-img"
           src={stork}
+          alt="animal"
           onClick={() => onClickHandler(frog)}
         />
       </div>
-      {food && <img src={food} className="food" />}
+      {food && <img src={food} className="food" alt="animal food" />}
     </div>
   );
 };
