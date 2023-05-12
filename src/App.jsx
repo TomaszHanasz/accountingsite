@@ -2,7 +2,7 @@ import CustomHeaderFullScreen from "./components/customHeaderFullScreen/CustomHe
 import NavBar from "./components/navigationBar/NavigationBar";
 import headerImage from "./components/customHeaderFullScreen/laptophand.jpg";
 import CountComponent from "./components/countComponent/CountComponent";
-import React, { useState } from "react";
+import React from "react";
 import "./App.style.css";
 
 function App() {
