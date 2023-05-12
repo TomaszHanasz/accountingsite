@@ -22,7 +22,10 @@ const CountComponent = () => {
   const onClickHandlerMultiply = () => {
     setCount(count * 5);
     if (count >= 150) {
-      setCount(count);
+      setCount(150);
+    }
+    if (count < 0) {
+      setCount(0);
     }
   };
 
