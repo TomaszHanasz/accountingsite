@@ -5,6 +5,16 @@ import "./countComponent.style.css";
 const CountComponent = () => {
   const [count, setCount] = useState(0);
 
+  const isWarningShown = () => {
+    if (count > 55) {
+      return "warning";
+    } else if (count < 25) {
+      return "You are too slow";
+    } else {
+      return "OK";
+    }
+  };
+
   const onClickHandlerIncrease = () => {
     setCount(count + 10);
     if (count >= 150) {
@@ -71,7 +81,7 @@ const CountComponent = () => {
             role={`count-button`}
           />
         </div>
-        <div className="count-component">
+        <div className="count-component ">
           <CustomButton
             onClick={onClickHandlerReset}
             buttonName="Reset"
@@ -79,6 +89,7 @@ const CountComponent = () => {
           />
         </div>
       </div>{" "}
+      <h3 className="warning">{isWarningShown()}</h3>
     </div>
   );
 };

@@ -14,3 +14,7 @@
   display: block;
   text-align: center;
 }
+
+.warning {
+  color: red;
+}

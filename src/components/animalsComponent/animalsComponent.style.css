@@ -1,0 +1,24 @@
+.animals-component {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  height: 300px;
+}
+
+.animal-title {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.animal-img {
+  width: 20vw;
+  height: 20vh;
+  object-fit: contain;
+}
+
+.food {
+  display: block;
+  margin: auto;
+  width: 20vw;
+  height: 20vh;
+  object-fit: contain;
+}
