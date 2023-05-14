@@ -12,10 +12,10 @@ import frog from "./images/frog.jpg";
 import "./animalsComponent.style.css";
 
 const AnimalsComponent = () => {
-  const [food, setFood] = useState(0);
+  const [food, setFood] = useState(null);
 
-  const onClickHandler = (e) => {
-    setFood(e);
+  const onClickHandler = (food) => {
+    setFood(food);
   };
 
   return (
