@@ -15,7 +15,7 @@ const animalImages = [
 
 
 function AnimalInfo ()  {
-  const [showText, setShowText] = useState(false)
+
 
   const [currentImageInfo, setCurrentImageInfo] = useState("")
 
