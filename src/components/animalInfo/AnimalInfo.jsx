@@ -32,7 +32,7 @@ const showAllImages = animalImages.map((animal, index)=> {
     <>
       {/* <img src={pandaImg} width="300px" alt="panda" onClick={onImageClick} />
       <img src={horseImg} width="300px" alt="horse" /> */}
-      {showText && <p>This is Mr Kung fu Panda</p>}
+      
       {showAllImages}
       <p>{currentImageInfo}</p>
     </>
